@@ -4,10 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>FreeCodeCamp - Survey Form</title>
   </head>
   <body>
-    html para survey form
-    <p>Texto</p>
+    <div>
+      <h1>freeCodeCamp Survey Form</h1>
+      <p>Thank you for taking the time to help us improve the platform</p>
+    </div>
+    <form action="" method="post">
+      <div>
+        <label for="name">Nome</label>
+        <input
+          type="text"
+          name="name"
+          id=""
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="email">E-mail</label>
+        <input
+          type="email"
+          name="email"
+          id=""
+          placeholder="Enter your e-mail"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="age">Age <span>(optional)</span></label>
+        <input
+          type="number"
+          name="age"
+          id=""
+          min="10"
+          max="99"
+          placeholder="Age"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="">Which option best describes your current role?</label>
+        <select name="" id="" required>
+          <option disabled selected value>Select current role</option>
+          <option value="student">Student</option>
+        </select>
+      </div>
+    </form>
   </body>
 </html>
