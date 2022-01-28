@@ -6,7 +6,16 @@
   font-family: montserrat, sans-serif;
 }
 
-.title {
+body {
+  background-image: url(https://images.unsplash.com/photo-1593320603531-4a6e61e7bb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+  background-color: white;
+  height: auto;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+div.title {
   margin: auto;
   display: inline-block;
   width: 100%;
@@ -19,16 +28,61 @@ div p {
 }
 
 form {
-  border: 1px solid red;
-  width: 720px;
+  width: 400px;
   padding: 30px 50px;
   margin: auto;
+  background-color: rgb(231, 231, 231);
 }
 
 form div {
-  border: 1px solid green;
+  width: auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: left;
+}
+
+#form-bg {
+  width: 100%;
+  margin: auto;
+  padding: 0 50px;
+}
+
+#comments {
+  border: 1px solid gray;
+  height: 80px;
+  margin: 5px 0;
+}
+
+div label {
+  margin: 5px 0;
+}
+
+select,
+input {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+.submit-button:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+@media (min-width: 700px) {
+  form {
+    width: 600px;
+    padding: 30px 50px;
+    margin: auto;
+    background-color: rgb(231, 231, 231);
+  }
+}
+
+@media (min-width: 1400px) {
+  form {
+    width: 900px;
+    padding: 30px 50px;
+    margin: auto;
+    background-color: rgb(231, 231, 231);
+  }
 }
