@@ -2,5 +2,4 @@
 
 Site com formulário desenvolvido para obter o certificado de Responsive Web Design
 
-Site de referência:
-https://codepen.io/freeCodeCamp/full/VPaoNP
+Veja o site aqui: https://codepen.io/fernandorebelo/pen/qBVdjGM
